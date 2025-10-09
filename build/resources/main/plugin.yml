@@ -1,0 +1,16 @@
+name: CodeFarmer
+main: com.playivanikyt.codefarmer.CodeFarmer
+version: 1.0
+api-version: 1.16
+author: playivanikyt
+description: Плагин для зачарования "Фармер"
+commands:
+  swordfarmer:
+    description: Основная команда для управления плагином
+    usage: /swordfarmer <give/reload>
+    aliases: [sf]
+    permission: codefarmer.admin
+permissions:
+  codefarmer.admin:
+    description: Доступ к командам плагина
+    default: op
